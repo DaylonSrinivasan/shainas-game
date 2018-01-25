@@ -25,7 +25,7 @@ function draw() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   handlePlayerMove();
   ctx.drawImage(player.img, 0, 0, player.img.width, player.img.height,
-    player.x, player.y, player.img.width*.1, player.img.height*.1);
+    player.x, player.y, player.img.width*.05, player.img.height*.05);
 
 }
 
